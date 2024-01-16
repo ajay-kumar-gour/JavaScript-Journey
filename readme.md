@@ -6,7 +6,7 @@ Welcome to the JavaScript Journey Repository! This repository is a place to expl
 
 JavaScript is a synchronous, single-threaded language, meaning it processes one command at a time in a specific order. Widely used on the client side of web development, JavaScript adds interactivity and dynamic behavior to websites, making them more engaging for users.
 
-## Variables in JavaScript
+## Variables in JavaScript 
 
 Variables are essential containers for storing data values in JavaScript. Unlike statically typed languages like C or Java, JavaScript is dynamically typed, allowing flexibility without explicit data type declarations.
 
@@ -46,3 +46,29 @@ Examples of variable declarations using `var`, `let`, and `const` in JavaScript,
 | `const`          | `PII`         | N/A           | Re-declaration (commented out)   | SyntaxError: Identifier 'PII' has already been declared      | None (due to error)  |
 | `const`          | `PII`         | N/A           | Re-assignment (commented out)    | TypeError: Assignment to constant variable.                  | None (due to error)  |
 | `const`          | `age`         | N/A           | Declaration (commented out)      | SyntaxError: Missing initializer in const declaration        | None (due to error)  |
+
+## Hoisting 🚀
+Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their containing scope during the compilation phase before the code is executed. This means that you can use variables or call functions in your code before they are declared.
+
+# Hoisting Examples in JavaScript 
+
+This section illustrates the concept of hoisting in JavaScript using examples with `var`, `let`, `const` and `functions`.
+
+
+
+| Code                                       | Output                                      |
+|--------------------------------------------|---------------------------------------------|
+| `console.log("value of x before :", x);`   | x == undefined                              |
+| `var x = 5;`                                |                                             |
+| `console.log("value of x after :", x);`    | x == 5                                      |
+| `console.log("value of hoistFun before (without func call) :", hoistFun);` | ƒ hoistFun() { console.log("Hola world"); } |
+| `console.log("value of hoistFun ( with called function) before :", hoistFun());` | Hola world (and returns undefined)       |
+| `function hoistFun() { console.log("Hola world"); }` |                                             |
+| `console.log(hoistFun2());`                 | Holla World 2 (and returns true)            |
+| `function hoistFun2() { console.log("Holla World 2"); return true; }` |                                     |
+| `console.log(vulName);`                     | ReferenceError: Cannot access 'vulName' before initialization |
+| `let vulName = "Apache Log4j";`             |                                             |
+| `console.log(riskAttribute);`               | ReferenceError: Cannot access 'riskAttribute' before initialization |
+| `const riskAttribute = "Critical";`         |                                             |
+
+
