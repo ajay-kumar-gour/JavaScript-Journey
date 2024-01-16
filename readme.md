@@ -18,3 +18,13 @@ JavaScript provides three main keywords for declaring variables:
 - **let**: Allows reassignment of values, suitable for variables with changing values.
 - **var**: The old way of declaring variables, not commonly used in modern JavaScript.
 
+# JavaScript Variable Declaration Comparison 📊
+
+Understanding the differences between `var`, `let`, and `const` This table summarizes the key features of each:
+
+| Feature         | `var`                                   | `let`                                   | `const`                                 |
+| --------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
+| **Scope**       | Function-scoped                         | Block-scoped                            | Block-scoped                            |
+| **Reassignment**| Can be redeclared and reassigned         | Can be reassigned, but not redeclared    | Cannot be reassigned or redeclared      |
+| **Hoisting**    | Hoisted to the top of the function      | Hoisted to the top of the block         | Hoisted to the top of the block         |
+
