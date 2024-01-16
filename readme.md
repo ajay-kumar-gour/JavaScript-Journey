@@ -28,9 +28,9 @@ Understanding the differences between `var`, `let`, and `const` This table summa
 | **Reassignment** | Can be redeclared and reassigned   | Can be reassigned, but not redeclared | Cannot be reassigned or redeclared |
 | **Hoisting**     | Hoisted to the top of the function | Hoisted to the top of the block       | Hoisted to the top of the block    |
 
-# JavaScript Variable Declaration Examples 📊
+### JavaScript Variable Declaration Examples 
 
-This repository contains examples of variable declarations using `var`, `let`, and `const` in JavaScript, along with comments explaining their behavior and potential errors.
+Examples of variable declarations using `var`, `let`, and `const` in JavaScript, along with comments explaining their behavior and potential errors.
 
 ## Variable Declaration Summary
 
