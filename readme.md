@@ -72,3 +72,10 @@ This section illustrates the concept of hoisting in JavaScript using examples wi
 | `const riskAttribute = "Critical";`         |                                             |
 
 
+# JavaScript Data Types Overview 📚
+
+### Primitive Types
+In JavaScript, primitive types are simple, immutable data types directly operated upon by the language. They include String, Number, Boolean, Undefined, Null, and Symbol. Variables of primitive types directly store the data's actual value.
+
+### Non-Primitive Types (Reference Types)
+Non-primitive types, also known as reference types, are more complex data types that are mutable and can hold multiple values. They include Object, Array, Function, and others. Variables of non-primitive types store references or addresses that point to the actual data in memory. When you work with a non-primitive type, you are manipulating a reference to the data rather than the data itself.
