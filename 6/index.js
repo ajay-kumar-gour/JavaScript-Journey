@@ -100,3 +100,115 @@ let productData1 = {
 
 console.log(productData1);
 console.log(productData1.sellerInfo.contact.email);
+
+//Incoreect Syntax
+// let mobileData = {
+//     [],
+//     [],
+// }
+
+// Corect Syntax
+
+let mobileData = {
+  firstArray: ["A", 100],
+  secondArray: [],
+};
+
+console.log(mobileData);
+
+//Arrayof objects
+
+let productArrayOfObjects = [
+  {
+    productId: "P789012",
+    name: "PowerBook Pro",
+    brand: "TechGear",
+    category: "Electronics",
+    price: 1299.99,
+    inStock: true,
+    specifications: {
+      display: {
+        type: "Retina",
+        size: 13.3,
+        resolution: "2560x1600",
+      },
+      processor: "Intel Core i7",
+      memory: "16 GB RAM",
+      storage: {
+        type: "SSD",
+        capacity: "512 GB",
+      },
+      features: ["Touch Bar", "Fingerprint Sensor", "Backlit Keyboard"],
+    },
+    reviews: [
+      {
+        userId: "U789",
+        rating: 4.9,
+        comment: "Excellent performance and build quality!",
+      },
+      {
+        userId: "U101",
+        rating: 4.5,
+        comment: "Great for both work and entertainment.",
+      },
+    ],
+    shippingInfo: {
+      weight: "1.4 kg",
+      dimensions: { length: 30, width: 21, height: 1.5 },
+      deliveryOptions: ["Standard Shipping", "Express Shipping"],
+    },
+    sellerInfo: {
+      sellerId: "S456",
+      sellerName: "TechBazaar",
+      ratings: 4.8,
+      contact: {
+        email: "support@techbazaar.com",
+        phone: "+9876543210",
+      },
+    },
+  },
+  {
+    productId: "P234567",
+    name: "SpeedRun Pro",
+    brand: "FitFeet",
+    category: "Footwear",
+    price: 79.99,
+    inStock: true,
+    specifications: {
+      size: "US 10",
+      color: "Blue/White",
+      material: "Mesh and Synthetic",
+      closure: "Lace-up",
+      features: ["Cushioned Insole", "Breathable Design", "Shock Absorption"],
+    },
+    reviews: [
+      {
+        userId: "U345",
+        rating: 4.7,
+        comment: "Comfortable and stylish running shoes!",
+      },
+      {
+        userId: "U567",
+        rating: 4.2,
+        comment: "Good for daily use and jogging.",
+      },
+    ],
+    shippingInfo: {
+      weight: "0.8 kg",
+      dimensions: { length: 12, width: 8, height: 4 },
+      deliveryOptions: ["Standard Shipping"],
+    },
+    sellerInfo: {
+      sellerId: "S789",
+      sellerName: "FootWonders",
+      ratings: 4.5,
+      contact: {
+        email: "info@footwonders.com",
+        phone: "+1234567890",
+      },
+    },
+  },
+];
+
+console.log(productArrayOfObjects);
+console.log(productArrayOfObjects[1].sellerInfo.ratings);
