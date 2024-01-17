@@ -103,3 +103,15 @@ This repository provides an overview of various data types in JavaScript, includ
 | Array          | Reference   | ["apple", "orange"]       | Represents an ordered list of values.                   |
 | Function       | Reference   | function() { ... }        | Represents a reusable block of code.                    |
 | Date           | Reference   | new Date()                | Represents a specific point in time.                    |
+
+
+## Differences
+
+| Aspect              | Primitive Types                    | Non-Primitive (Reference) Types          |
+|---------------------|-----------------------------------|------------------------------------------|
+| Nature              | Simple, immutable values           | More complex data structures             |
+| Storage             | Stored directly in variable's location | Stored as references to memory locations|
+| Mutation           | Immutable; values cannot be changed | Mutable; values can be changed           |
+| Storage Location   | Stored directly in memory space     | Stored as references (memory addresses)  |
+| Equality           | Compared by value                   | Compared by reference                   |
+| Passing to Functions| Passed by value                     | Passed by reference                      |
