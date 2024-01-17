@@ -79,3 +79,27 @@ In JavaScript, primitive types are simple, immutable data types directly operate
 
 ### Non-Primitive Types (Reference Types)
 Non-primitive types, also known as reference types, are more complex data types that are mutable and can hold multiple values. They include Object, Array, Function, and others. Variables of non-primitive types store references or addresses that point to the actual data in memory. When you work with a non-primitive type, you are manipulating a reference to the data rather than the data itself.
+
+
+Certainly! Here's a README.md file with the information presented in a tabular format, along with simple explanations for primitive and non-primitive (reference) types:
+
+markdown
+Copy code
+# JavaScript Data Types Overview 📚
+
+This repository provides an overview of various data types in JavaScript, including primitive and non-primitive (reference) types. Understanding these types is fundamental for effective programming in JavaScript.
+
+## Data Types Summary
+
+| Type           | Category    | Example                   | Description                                             |
+|----------------|-------------|---------------------------|---------------------------------------------------------|
+| String         | Primitive   | "Hello"                   | Represents textual data.                                |
+| Number         | Primitive   | 42, 3.14                  | Represents numeric values.                              |
+| Boolean        | Primitive   | true, false               | Represents true or false values.                        |
+| Undefined      | Primitive   | undefined                | Represents the absence of a value.                      |
+| Null           | Primitive   | null                      | Represents the absence of any object value.             |
+| Symbol         | Primitive   | Symbol("unique")          | Represents a unique identifier.                         |
+| Object         | Reference   | { key: "value" }          | Represents a collection of key-value pairs.             |
+| Array          | Reference   | ["apple", "orange"]       | Represents an ordered list of values.                   |
+| Function       | Reference   | function() { ... }        | Represents a reusable block of code.                    |
+| Date           | Reference   | new Date()                | Represents a specific point in time.                    |
