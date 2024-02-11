@@ -1,5 +1,6 @@
 # JavaScript Journey Repository 🚀
-
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+ 
 Welcome to the JavaScript Journey Repository! This repository is a place to explore the exciting world of JavaScript and its dynamic capabilities for building interactive and engaging web applications.
 
 ## About JavaScript
